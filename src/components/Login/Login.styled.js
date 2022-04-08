@@ -11,6 +11,8 @@ export const Container = styled.div`
 `;
 
 export const Thumbnail = styled.div`
+  display: flex;
+  justify-content: space-between;
   height: 63px;
   border-radius: 2px;
   background-image: linear-gradient(
@@ -29,6 +31,14 @@ export const Thumbnail = styled.div`
     font-weight: bold;
     font-family: 'Helvetica Neue';
     filter: drop-shadow(0.5px 0.866px 0.5px rgba(53, 16, 56, 0.5));
+  }
+  button {
+    border-radius: 3px;
+    border: 0;
+    background-color: transparent;
+    margin-right: 20px;
+    color: #ffffff;
+    cursor: pointer;
   }
 `;
 
